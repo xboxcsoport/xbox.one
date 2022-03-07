@@ -1,1 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-image:url(img/wp6083640.png);
+}
+#xboxh1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    background-color: black ;
+    border: solid;
+}
+.kep{
+    width: 200%;
+    height: 240%;
+    margin: auto;
+    text-align: center;
+}
+.kep2{
+    width: 30%;
+    height: 35%;
+    margin: auto;
+    text-align: center;
+    
+}
+.tablazat{
+    text-align: center;
+    width: 100%;
+    border: solid;
+   
+}
+.tablazat2{
+    text-align: center;
+    width: 100%;
+    border: solid;
+ 
+}
+.game {
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: .4rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.game:hover {
+    transition: .5s ease;
+    transform: scale(1.08);
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding:5px 32px ;
+    text-align: center;
+}
+    
 
+
+#h2{
+    color: red;
+    text-align: left;
+    font-size: 50px;
+    background-color: white;
+    width: 11.5%;
+}
+
+.container{
+
+    height: max-content
+;
+    width: max-content;
+    
+    float: left;
+}
+ .box1{
+
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 45px;
+    transition: 1s;
+ }
+ 
+ .box2{
+
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 150px;
+    transition: 1s;
+ }
+
+ .box3{
+
+   background-color: green;
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin: 170px 80px 80px 150px;
+   transition: 1s;
+}
+
+.box4{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 150px;
+    transition: 1s;
+}
+
+
+ .box1:hover{
+
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 100px;
+ }
+ .box2:hover{
+
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 100px;
+ }
+
+ .box3:hover{
+
+   background-color: black;
+   transform: scale(1.2);
+   border-radius: 100px;
+}
+.box4:hover{
+    background-color: black;
+    transform: scale(1.2);
+    border-radius: 100px;
+}
