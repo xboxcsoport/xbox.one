@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
-    background-image:url(img/wp6083640.png);
+.xboxbody{
+    background-image:url(img/háttér.jpg);
 }
+
 #xboxh1{
     text-align: center;
     color: white;
@@ -17,25 +18,37 @@ body{
     text-align: center;
 }
 .kep2{
-    width: 30%;
-    height: 35%;
+    width: 100%;
+    height: 120%;
     margin: auto;
     text-align: center;
     
 }
-.tablazat{
+
+
+
+
+    
+.xboxp{
+   color: black;
+  
+}
+
+.xboxbutton{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    padding: 5px 32px;
     text-align: center;
-    width: 100%;
-    border: solid;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
    
 }
-.tablazat2{
-    text-align: center;
-    width: 100%;
-    border: solid;
- 
-}
-.game {
+
+.xboxgame {
     width: 250px;
     height: 350px;
     border: 2px solid black;
@@ -46,21 +59,21 @@ body{
     text-align: center;
     padding: 20px;
 }
+
+.xboxdiv{
+    width: 56.5%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
 .game:hover {
     transition: .5s ease;
     transform: scale(1.08);
 }
-button{
-    background-color: green;
-    color: white;
-    border: none;
-    padding:5px 32px ;
-    text-align: center;
-}
-    
 
 
-#h2{
+#xboxh2{
     color: red;
     text-align: left;
     font-size: 50px;
@@ -68,75 +81,12 @@ button{
     width: 11.5%;
 }
 
-.container{
+.xboxcontainer{
 
-    height: max-content
-;
+    height: max-content;
+
     width: max-content;
     
     float: left;
-}
- .box1{
 
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin: 170px 80px 80px 45px;
-    transition: 1s;
- }
- 
- .box2{
-
-    background-color: green;
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin: 170px 80px 80px 150px;
-    transition: 1s;
- }
-
- .box3{
-
-   background-color: green;
-   width: 200px;
-   height: 200px;
-   float: left;
-   margin: 170px 80px 80px 150px;
-   transition: 1s;
-}
-
-.box4{
-    background-color: green;
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin: 170px 80px 80px 150px;
-    transition: 1s;
-}
-
-
- .box1:hover{
-
-    background-color: black;
-    transform: scale(1.2);
-    border-radius: 100px;
- }
- .box2:hover{
-
-    background-color: black;
-    transform: scale(1.2);
-    border-radius: 100px;
- }
-
- .box3:hover{
-
-   background-color: black;
-   transform: scale(1.2);
-   border-radius: 100px;
-}
-.box4:hover{
-    background-color: black;
-    transform: scale(1.2);
-    border-radius: 100px;
 }
