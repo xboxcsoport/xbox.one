@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .xboxbody{
     background-image:url(img/háttér.jpg);
+   
 }
-
 #xboxh1{
     text-align: center;
     color: white;
@@ -67,7 +68,7 @@
     text-align: center;
 }
 
-.game:hover {
+.xboxgame:hover {
     transition: .5s ease;
     transform: scale(1.08);
 }
@@ -83,10 +84,9 @@
 
 .xboxcontainer{
 
-    height: max-content;
-
+    height: max-content
+;
     width: max-content;
     
     float: left;
-
 }
